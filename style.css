@@ -10,7 +10,7 @@ float-container {
 }
 
 canvas {
-  display: block;
+  display: flex;
   float:  left;
   padding: 5px;
 }
