@@ -1,4 +1,4 @@
-html, body {
+thtml, body {
   margin: 0;
   padding: 0;
 }
@@ -12,6 +12,6 @@ float-container {
 
 canvas {
   display: block;
-  float:  left;
+  float:  center;
   padding: 5px;
 }
