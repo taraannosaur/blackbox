@@ -5,6 +5,7 @@ html, body {
 
 float-container {
     border: 3px solid #000;
+  float: center;
     padding: 20px;
 
 }
