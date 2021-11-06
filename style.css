@@ -11,6 +11,10 @@ float-container {
 
 
 canvas {
-  display: grid;
+  display: flex;
+  lex-direct: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
 }
