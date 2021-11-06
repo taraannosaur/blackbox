@@ -12,6 +12,8 @@ float-container {
 
 canvas {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   float:  center;
   padding: 5px;
 }
