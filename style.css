@@ -12,7 +12,7 @@ float-container {
 
 canvas {
   display: flex;
-  lex-direct: row;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
