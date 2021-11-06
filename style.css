@@ -11,6 +11,8 @@ float-container {
 
 canvas {
   display: flex;
-  float:  left;
-  padding: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
