@@ -1,4 +1,4 @@
-//BB1
+//BB1 Flee
 var bb1 = function (b1){
 
   b1.x = 150;
@@ -27,7 +27,7 @@ var myP5 = new p5(bb1, 'c1');
 
 
 
-//BB2
+//BB2 White
 var bb2 = function (b2){
   b2.f = 0;
   b2.count = 0;
@@ -61,7 +61,7 @@ var myP5 = new p5(bb2, 'c2');
 
 
 
-//BB3
+//BB3 click follow
 var bb3 = function(b3){
   b3.x = 150;
   b3.y = 150;
@@ -97,7 +97,7 @@ var myP5 = new p5(bb3, 'c3');
 
 
 
-//BB4
+//BB4 Fall
 var bb4 = function(b4){
   b4.x = 150;
   b4.y = 150;
@@ -133,7 +133,7 @@ var bb4 = function(b4){
 var myP5 = new p5(bb4, 'c4');
 
 
-//BB5
+//BB5 Scale
 var bb5 = function (b5){
 
   b5.x = 150;
@@ -162,7 +162,7 @@ var bb5 = function (b5){
 
 var myP5 = new p5(bb5, 'c5');
 
-//BB6
+//BB6 Cube
 var bb6 = function(b6){
   b6.x=0;
   b6.y= 0;
@@ -199,7 +199,7 @@ var myP5 = new p5(bb6, 'c6');
 
 
 
-//BB7
+//BB7 zoom explode
 var bb7 = function(b7){
   b7.x = 5;
   b7.a = 115;
@@ -238,7 +238,7 @@ var myP5 = new p5(bb7, 'c7');
 
 
 
-//BB8
+//BB8 Spin Colour
 var bb8 = function(b8){
   b8.x = 0;
   b8.y = 0;
