@@ -238,91 +238,89 @@ var myP5 = new p5(bb7, 'c7');
 
 
 
-// //BB8
-// var bb8 = function(b8){
-//   b8.x = 0;
-//   b8.y = 0;
-//   var b8.state;
+//BB8
+var bb8 = function(b8){
+  b8.x = 0;
+  b8.y = 0;
+  b8.state;
 
-//   b8.setup = function(){
-//     b8.createCanvas(300,300);
-//   }
+  b8.setup = function(){
+    b8.createCanvas(300,300);
+  }
 
-//   b8.draw = function(){
-//     b8.background(200);
+  b8.draw = function(){
+    b8.background(200);
     
+    b8.push();
+    b8.noStroke();
+    b8.translate(150, 150);
+    b8.blendMode(b8.DIFFERENCE);
+    b8.rectMode(b8.CENTER);
+    b8.fill(200,0,0);
+    b8.rect(0,0,75,75);
+    b8.pop();
 
-//     b8.push();
-//     b8.noStroke();
-//     b8.angleMode(b8.DEGREES);
-//     b8.translate(150, 150);
-//     b8.blendMode(b8.DIFFERENCE);
-//     b8.rectMode(b8.CENTER);
-//     b8.fill(200,0,0);
-//     b8.rect(0,0,75,75);
-//     b8.pop();
+    b8.push();
+    b8.noStroke();
+    b8.translate(150,150);
+    b8.angleMode(b8.DEGREES);
+    b8.rotate(b8.x);
+    b8.blendMode(b8.DIFFERENCE);
+    b8.rectMode(b8.CENTER);
+    b8.fill(0,200,0);
+    b8.rect(0,0,75,75);
+    b8.pop();
 
-//     b8.push();
-//     b8.noStroke();
-//     b8.angleMode(b8.DEGREES);
-//     b8.translate(150,150);
-//     b8.rotate(b8.x);
-//     b8.blendMode(b8.DIFFERENCE);
-//     b8.rectMode(b8.CENTER);
-//     b8.fill(0,200,0);
-//     b8.rect(0,0,75,75);
-//     b8.pop();
+    b8.push();
+    b8.noStroke();
+    b8.translate(150,150);
+    b8.angleMode(b8.DEGREES);
+    b8.rotate(b8.y);
+    b8.blendMode(b8.DIFFERENCE);
+    b8.rectMode(b8.CENTER);
+    b8.fill(0,0,200);
+    b8.rect(0,0,75,75);
+    b8.pop();
 
-//     b8.push();
-//     b8.noStroke();
-//     b8.angleMode(b8.DEGREES);
-//     b8.translate(150,150);
-//     b8.translate(b8.y);
-//     b8.blendMode(b8.DIFFERENCE);
-//     b8.rectMode(b8.CENTER);
-//     b8.fill(0,0,200);
-//     b8.rect(0,0,75,75);
-//     b8.pop();
-
-//     b8.move();
+    b8.move();
 
 
-//   }
+  }
 
-//   b8.mouseClicked = function(){
-//     if (b8.mouseX > 0 &&
-//       b8.mouseX < b8.width &&
-//       b8.mouseY > 0 &&
-//       b8.mouseY < b8.height){
-//         b8.state = !b8.state;
-//     }
-//   }
+  b8.mouseClicked = function(){
+    if (b8.mouseX > 0 &&
+      b8.mouseX < b8.width &&
+      b8.mouseY > 0 &&
+      b8.mouseY < b8.height){
+        b8.state = !b8.state;
+    }
+  }
 
-//   b8.move = function(){
-//     if (b8.state == true){
-//       b8.x++;
-//       b8.y += 2;
-//     } else {
-//       b8.x = 0;
-//       b8.y = 0;
-//     }
+  b8.move = function(){
+    if (b8.state == true){
+      b8.x++;
+      b8.y += 2;
+    } else {
+      b8.x = 0;
+      b8.y = 0;
+    }
 
-//   }
-// }
+  }
+}
 
-// var myP5 = new p5(bb8, 'c8');
+var myP5 = new p5(bb8, 'c8');
 
-// //BB9
+//BB9
 
-// var bb9 = function (b9){
+var bb9 = function (b9){
 
 
-//   b9.setup = function(){
-//     b9.createCanvas(300, 300);
-//   }
+  b9.setup = function(){
+    b9.createCanvas(300, 300);
+  }
 
-//   b9.draw = function(){
-//     b9.background(200);
-//   }
-// }
-// var myP5 = new p5(bb9, 'c9');
+  b9.draw = function(){
+    b9.background(200);
+  }
+}
+var myP5 = new p5(bb9, 'c9');
