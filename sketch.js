@@ -173,8 +173,8 @@ var bb6 = function(b6){
 
   b6.draw = function(){
     b6.background(200);
-    b6.ambientLight(200,200,200);
-    b6.pointLight(255, 255, 255, -50, -50, 0);
+    b6.ambientLight(100,100,100);
+    b6.pointLight(255, 255, 255, -50, -50, -10);
 
     if (b6.mouseX > 0 &&
       b6.mouseX < b6.width &&
