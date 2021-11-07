@@ -196,3 +196,41 @@ var bb6 = function(b6){
   }
 }
 var myP5 = new p5(bb6, 'c6');
+
+
+
+//BB7
+var bb7 = function(b7){
+  b7.x = 5;
+  b7.a = 115;
+  b7.b = 185;
+
+  b7.setup = function(){
+    b7.createCanvas(300,300);
+
+  }
+
+  b7.draw = function(){
+    b7.background(200);
+    for(b7.i = b7.a; b7.i < b7.b +1; b7.i+= b7.x){
+      for(b7.j = b7.a; b7.j < b7.b +1; b7.j+= b7.x){
+        b7.rectMode(b7.CENTER);
+        b7.noStroke();
+        b7.fill(0);
+        b7.rect(b7.i, b7.j, 5, 5);
+      }
+    }
+
+  }
+  b7.mouseClicked = function(){
+    if (b7.mouseX > 0 &&
+      b7.mouseX < b7.width &&
+      b7.mouseY > 0 &&
+      b7.mouseY < b7.height){
+    b7.x++;
+    b7.a-=10;
+    b7.b+=10;
+  }
+  }
+}
+var myP5 = new p5(bb7, 'c7');
