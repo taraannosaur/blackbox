@@ -301,8 +301,8 @@ var bb8 = function(b8){
       b8.x++;
       b8.y += 2;
     } else {
-      b8.x = 0;
-      b8.y = 0;
+      b8.x = b8.x;
+      b8.y = b8.y;
     }
 
   }
